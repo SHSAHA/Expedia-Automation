@@ -1,0 +1,25 @@
+package Tests;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+public class hotelReservation {
+WebDriver driver;
+	
+	@Test
+	public void reservationsExpedia() {
+		//1. Search
+		
+		//2. Modify search results page, give criteria
+		
+		//3.Analyze the results and make our selection
+		
+		//4. Book reservation
+		
+		//5.Fill out contact/billing
+		
+		//6.Get confirmation
+
+	}
+
+}

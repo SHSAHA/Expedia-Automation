@@ -1,0 +1,42 @@
+package Tests;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+
+public class hotelReservation {
+WebDriver driver;
+String browserType = "Chrome";
+	
+	@Test
+	public void reservationsExpedia() {
+		//1. Search
+		
+		//2. Modify search results page, give criteria
+		
+		//3.Analyze the results and make our selection
+		
+		//4. Book reservation
+		
+		//5.Fill out contact/billing
+		
+		//6.Get confirmation
+
+	}
+	
+	@BeforeMethod
+	public void setUp() {
+		driver = utilities.DriverFactory.open(browserType);
+		driver.get("https://www.expedia.com/");
+	}
+	
+	@AfterMethod
+	public void tearDown() {
+	}
+	}
+
+

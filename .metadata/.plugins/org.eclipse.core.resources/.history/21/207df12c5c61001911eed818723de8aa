@@ -1,0 +1,14 @@
+package Tests;
+
+import org.testng.annotations.Test;
+
+public class hotelReservation {
+
+	
+	@Test
+	public void reservationsExpedia() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

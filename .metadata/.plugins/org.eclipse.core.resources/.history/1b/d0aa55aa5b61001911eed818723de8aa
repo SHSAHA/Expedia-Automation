@@ -1,0 +1,10 @@
+package Tests;
+
+public class hotelReservation {
+
+	public  void reservationsExpedia {
+		// TODO Auto-generated method stub
+
+	}
+
+}
